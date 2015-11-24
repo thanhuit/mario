@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{87dee24d-c6dc-439e-bfcb-a9896e7e1c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{240e776a-19ec-4f3b-92fe-39d6680693f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{431ec7ed-b4b6-415c-b6eb-252e75baf98c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO">
+      <UniqueIdentifier>{bc425332-d0a5-46ed-be3a-50e4a76a90f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{10a9fbe7-d7f8-40fa-afd0-0dfc22f50240}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObject.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="Sprite.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="RecF.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="TMXParser.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Quadtree.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Winmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="RecF.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="TMXParser.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Quadtree.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
